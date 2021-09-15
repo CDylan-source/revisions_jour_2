@@ -9,7 +9,6 @@ body{
     background-size: cover;
     flex-direction: column;
     padding: 2rem;
-    max-height: 100vh;
 }
 
 section{
@@ -51,10 +50,26 @@ button{
     background-color: mintcream;
     font-weight: 600;
     transition: all 0.3s;
+    outline-style: none;
 }
 
 button:hover{
     transform: translateX(5px) translateY(-7px);
     background-color: blanchedalmond;
     box-shadow: 0 12px 60px -20px #cccccc;
+}
+
+p{
+    align-self: center;
+    color: snow;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+}
+
+input{
+    align-self: center;
+    padding: 0.5rem;
+    border-radius: 10px;
+    text-align: center;
+    outline-style: none;
 }
