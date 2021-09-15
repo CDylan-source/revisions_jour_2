@@ -1,0 +1,60 @@
+*{
+    margin: unset;
+    padding: unset;
+}
+
+body{
+    display: flex;
+    background: center center fixed no-repeat url(bg_m.jpg);
+    background-size: cover;
+    flex-direction: column;
+    padding: 2rem;
+    max-height: 100vh;
+}
+
+section{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+
+h1{
+    align-self: center;
+    color: seashell;
+    letter-spacing: 0.3rem;
+    text-align: center;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+h2{
+    font-size: 1.4rem;
+    color:cadetblue;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+
+button{
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    align-self: center;
+    border-radius: 10px;
+    box-shadow: 0 6px 30px -10px #cccccc;
+    background-color: mintcream;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+button:hover{
+    transform: translateX(5px) translateY(-7px);
+    background-color: blanchedalmond;
+    box-shadow: 0 12px 60px -20px #cccccc;
+}
