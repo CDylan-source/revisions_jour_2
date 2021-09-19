@@ -3,6 +3,10 @@
     margin: unset;
 }
 
+*:focus{
+    outline: none;
+}
+
 body{
     background-color: #232323;
     min-height: 100vh;
@@ -38,6 +42,7 @@ button{
     border-radius: 10px;
     font-size: 1.2rem;
     background-color: lightgreen;
+    transition: ease-in 0.4s;
 }
 
 div{
@@ -50,8 +55,39 @@ ul{
     display: flex;
     flex-wrap: wrap;
     column-gap: 3rem;
+    row-gap: 1.5rem;
 }
 
 li{
     list-style: none;
+    color: Black;
+    font-weight: 600;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    background-color: snow;
+    border-radius: 10px;
+    max-width: 84vw;
+    word-wrap: break-word;
+}
+
+button:hover{
+    background-color:#1c1c1c;
+    padding: 1.4rem;
+    color: snow;
+    box-shadow: 1px 1px 1px 1px white;
+}
+
+p{
+    color: lightgreen;
+    
+}
+
+ul li:nth-child(2n+1){
+    background-color: pink;
+}
+
+ul li:nth-child(2n) {
+    background-color:linen;
 }
