@@ -1,13 +1,13 @@
-*{
+* {
     padding: unset;
     margin: unset;
 }
 
-*:focus{
+*:focus {
     outline: none;
 }
 
-body{
+body {
     background-color: #232323;
     display: flex;
     flex-direction: column;
@@ -16,10 +16,9 @@ body{
     padding-bottom: 4vh;
     padding-left: 8vw;
     padding-right: 8vw;
-    row-gap: 2.5rem;
 }
 
-form{
+form {
     display: flex;
     max-width: 84vw;
     flex-direction: column;
@@ -27,7 +26,7 @@ form{
     align-items: center;
 }
 
-input{
+input, select{
     text-align: center;
     padding: 1rem;
     border-radius: 10px;
@@ -36,57 +35,22 @@ input{
     font-size: 1.2rem;
 }
 
-button{
+button {
     padding: 1rem;
     border-radius: 10px;
     font-size: 1.2rem;
     background-color: lightgreen;
     transition: ease-in 0.4s;
+    margin-bottom: 2rem;
 }
 
-div{
-    display: flex;
-    column-gap: 2rem;
-    max-width: 84vw;
-}
-
-ul{
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 3rem;
-    row-gap: 1.5rem;
-}
-
-li{
-    list-style: none;
-    color: Black;
-    font-weight: 600;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 0.7rem;
-    padding-bottom: 0.7rem;
-    background-color: snow;
-    border-radius: 10px;
-    max-width: 84vw;
-    word-wrap: break-word;
-}
-
-button:hover{
-    background-color:#1c1c1c;
+button:hover {
+    background-color: #1c1c1c;
     padding: 1.4rem;
     color: snow;
     box-shadow: 1px 1px 1px 1px white;
 }
 
-p{
+p {
     color: lightgreen;
-    
-}
-
-ul li:nth-child(2n+1){
-    background-color: pink;
-}
-
-ul li:nth-child(2n) {
-    background-color:linen;
 }
